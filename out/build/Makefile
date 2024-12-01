@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tema3paoo
+# Target rules for targets named tema3
 
 # Build rule for target.
-tema3paoo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tema3paoo
-.PHONY : tema3paoo
+tema3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tema3
+.PHONY : tema3
 
 # fast build rule for target.
-tema3paoo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/build
-.PHONY : tema3paoo/fast
+tema3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/build
+.PHONY : tema3/fast
 
 item10.o: item10.cpp.o
 .PHONY : item10.o
 
 # target to build an object file
 item10.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item10.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item10.cpp.o
 .PHONY : item10.cpp.o
 
 item10.i: item10.cpp.i
@@ -142,7 +142,7 @@ item10.i: item10.cpp.i
 
 # target to preprocess a source file
 item10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item10.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item10.cpp.i
 .PHONY : item10.cpp.i
 
 item10.s: item10.cpp.s
@@ -150,7 +150,7 @@ item10.s: item10.cpp.s
 
 # target to generate assembly for a file
 item10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item10.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item10.cpp.s
 .PHONY : item10.cpp.s
 
 item11.o: item11.cpp.o
@@ -158,7 +158,7 @@ item11.o: item11.cpp.o
 
 # target to build an object file
 item11.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item11.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item11.cpp.o
 .PHONY : item11.cpp.o
 
 item11.i: item11.cpp.i
@@ -166,7 +166,7 @@ item11.i: item11.cpp.i
 
 # target to preprocess a source file
 item11.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item11.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item11.cpp.i
 .PHONY : item11.cpp.i
 
 item11.s: item11.cpp.s
@@ -174,7 +174,7 @@ item11.s: item11.cpp.s
 
 # target to generate assembly for a file
 item11.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item11.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item11.cpp.s
 .PHONY : item11.cpp.s
 
 item12.o: item12.cpp.o
@@ -182,7 +182,7 @@ item12.o: item12.cpp.o
 
 # target to build an object file
 item12.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item12.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item12.cpp.o
 .PHONY : item12.cpp.o
 
 item12.i: item12.cpp.i
@@ -190,7 +190,7 @@ item12.i: item12.cpp.i
 
 # target to preprocess a source file
 item12.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item12.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item12.cpp.i
 .PHONY : item12.cpp.i
 
 item12.s: item12.cpp.s
@@ -198,7 +198,7 @@ item12.s: item12.cpp.s
 
 # target to generate assembly for a file
 item12.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/item12.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/item12.cpp.s
 .PHONY : item12.cpp.s
 
 main.o: main.cpp.o
@@ -206,7 +206,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -214,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... tema3paoo"
+	@echo "... tema3"
 	@echo "... item10.o"
 	@echo "... item10.i"
 	@echo "... item10.s"

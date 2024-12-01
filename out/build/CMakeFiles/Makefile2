@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/bogdan/Desktop/tema3paoo/out/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tema3paoo.dir/all
+all: CMakeFiles/tema3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tema3paoo.dir/clean
+clean: CMakeFiles/tema3.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tema3paoo.dir
+# Target rules for target CMakeFiles/tema3.dir
 
 # All Build rule for target.
-CMakeFiles/tema3paoo.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdan/Desktop/tema3paoo/out/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target tema3paoo"
-.PHONY : CMakeFiles/tema3paoo.dir/all
+CMakeFiles/tema3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bogdan/Desktop/tema3paoo/out/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target tema3"
+.PHONY : CMakeFiles/tema3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tema3paoo.dir/rule: cmake_check_build_system
+CMakeFiles/tema3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema3paoo/out/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tema3paoo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tema3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/bogdan/Desktop/tema3paoo/out/build/CMakeFiles 0
-.PHONY : CMakeFiles/tema3paoo.dir/rule
+.PHONY : CMakeFiles/tema3.dir/rule
 
 # Convenience name for target.
-tema3paoo: CMakeFiles/tema3paoo.dir/rule
-.PHONY : tema3paoo
+tema3: CMakeFiles/tema3.dir/rule
+.PHONY : tema3
 
 # clean rule for target.
-CMakeFiles/tema3paoo.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3paoo.dir/build.make CMakeFiles/tema3paoo.dir/clean
-.PHONY : CMakeFiles/tema3paoo.dir/clean
+CMakeFiles/tema3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tema3.dir/build.make CMakeFiles/tema3.dir/clean
+.PHONY : CMakeFiles/tema3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

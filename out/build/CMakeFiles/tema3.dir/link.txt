@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/tema3.dir/main.cpp.o CMakeFiles/tema3.dir/item10.cpp.o CMakeFiles/tema3.dir/item11.cpp.o CMakeFiles/tema3.dir/item12.cpp.o -o tema3
