@@ -4,9 +4,9 @@
 #include "item11.hpp"
 
 item11::item11(int height, int width, const char* colorCode):
-    height(height), width(width), colorCode(nullptr){
+    height(height), width(width){
         std::cout << "CONSTRUCTOR APELAT!\n";
-        colorCode = new char[strlen(colorCode) + 1]; 
+        this->colorCode = new char[strlen(colorCode) + 1]; 
         strcpy(this->colorCode, colorCode);
 }
 
@@ -28,7 +28,7 @@ void item11::swap(item11& other) {
     std::swap(colorCode, other.colorCode);
 }
 
-item11& item11::operator+=(item11& other){
+item11& item11::operator=(item11& other){
     item11::swap(other);
     return *this;
 }

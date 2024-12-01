@@ -10,17 +10,21 @@ void demoItem12();
 int main(){
     demoItem10();
     separator();
-
+    demoItem11();
     return 0;
 }
 
 void separator(){
-    std::cout << "==========================================================================================";
-    std::cout << "==========================================================================================";
+    std::cout << "==========================================================================================\n";
+    std::cout << "==========================================================================================\n";
 }
 
 void demoItem10(){
-    item10 a(0,0,"white"), b(1,1,"red"), c(2,2,"blue"), d(3,3,"green"), e(4,4,"yellow");
+    item10 a(0,0,"white");
+    item10 b(1,1,"red");
+    item10 c(2,2,"blue");
+    item10 d(3,3,"green");
+    item10 e(4,4,"yellow");
     a.printItem10("a");
     b.printItem10("b");
     c.printItem10("c");
@@ -37,7 +41,9 @@ void demoItem10(){
 }
 
 void demoItem11(){
-    item11 obj1(10, 20, "Red"), obj2(15, 25, "Blue"), obj3(5, 10, "Green");
+    item11 obj1(10, 20, "Red");
+    item11 obj2(15, 25, "Blue");
+    item11 obj3(5, 10, "Green");
 
     obj1.printItem11("obj1");
     obj2.printItem11("obj2");
