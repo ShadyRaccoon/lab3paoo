@@ -1,5 +1,6 @@
 #include <iostream>
 #include "item10.hpp"
+#include "item11.hpp"
 
 void separator();
 void demoItem10();
@@ -33,4 +34,20 @@ void demoItem10(){
     a.printItem10("a");
     a*= e;    
     a.printItem10("a");
+}
+
+void demoItem11(){
+    item11 obj1(10, 20, "Red"), obj2(15, 25, "Blue"), obj3(5, 10, "Green");
+
+    obj1.printItem11("obj1");
+    obj2.printItem11("obj2");
+    obj3.printItem11("obj3");
+
+    obj1 = obj2;
+    obj1.printItem11("obj1");
+
+    obj1 += obj3;
+    obj1.printItem11("obj1");
+
+    separator();
 }
