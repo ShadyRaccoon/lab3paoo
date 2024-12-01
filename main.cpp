@@ -11,6 +11,8 @@ int main(){
     demoItem10();
     separator();
     demoItem11();
+    separator();
+    demoItem12();
     return 0;
 }
 
@@ -56,4 +58,8 @@ void demoItem11(){
     obj1.printItem11("obj1");
 
     separator();
+}
+
+void demoItem12(){
+    
 }
