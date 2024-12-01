@@ -23,16 +23,20 @@ item10::item10(const item10&& other):
 };
 
 item10& item10::operator*=(const item10& opdr){
+    std::cout << "ASSIGNMENT OPERATOR *= APELAT!\n"; 
     return *this;
 }
 
 item10& item10::operator+=(const item10& opdr){
+    std::cout << "ASSIGNMENT OPERATOR += APELAT!\n"; 
     return *this;
 }
 item10& item10::operator-=(const item10& opdr){
+    std::cout << "ASSIGNMENT OPERATOR -= APELAT!\n"; 
     return *this;
 }
 
 item10& item10::operator=(const item10& opdr){
+    std::cout << "ASSIGNMENT OPERATOR = APELAT!\n"; 
     return *this;
 }
