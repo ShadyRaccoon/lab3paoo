@@ -124,4 +124,5 @@ CMakeFiles/tema3.dir/main.cpp.o: /home/bogdan/Desktop/tema3paoo/main.cpp \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc \
  /home/bogdan/Desktop/tema3paoo/item10.hpp \
- /home/bogdan/Desktop/tema3paoo/item11.hpp
+ /home/bogdan/Desktop/tema3paoo/item11.hpp \
+ /home/bogdan/Desktop/tema3paoo/item12.hpp

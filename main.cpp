@@ -1,6 +1,7 @@
 #include <iostream>
 #include "item10.hpp"
 #include "item11.hpp"
+#include "item12.hpp"
 
 void separator();
 void demoItem10();
@@ -61,5 +62,17 @@ void demoItem11(){
 }
 
 void demoItem12(){
-    
+    item12BASE b1(1,1), b2(2,2);
+    b1.printItem("b1");
+    b2.printItem("b2");
+    b1 = b2;
+    b1.printItem("b1");
+    b2.printItem("b2");
+
+    item12DERIVED d1(3,3,3), d2(4,4,4);
+    d1.printItem("d1");
+    d2.printItem("d2");
+    d1 = d2;
+    d1.printItem("d1");
+    d2.printItem("d2");
 }
