@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(tema3paoo)
+project(tema3)
 
 set(CMAKE_CXX_STANDARD 14)	 
 # we request C++14
